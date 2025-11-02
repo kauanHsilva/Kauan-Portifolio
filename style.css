@@ -207,28 +207,42 @@ header {
     }
 }
 
-/* Responsividade */
+/* Responsividade aprimorada */
 @media (max-width: 1024px) {
+    body { padding: 15px; }
     .header { font-size: 70px; }
     .tittlestrong { font-size: 38px; }
+    .aboutmemain { margin: 5% 8%; }
     .paragraphaboutme { font-size: 18px; }
     .contact a { font-size: 22px; padding: 18px 0; }
     .projects-title { font-size: 40px; }
-    .project-card { width: 45%; }
+    .project-card { width: 48%; }
 }
 
 @media (max-width: 768px) {
+    body { padding: 10px; }
     .header { font-size: 55px; }
     .tittlestrong { font-size: 30px; }
-    .paragraphaboutme { font-size: 16px; }
-    .contact a { font-size: 20px; padding: 16px 0; }
-    .projects-title { font-size: 35px; }
+    .aboutmemain { margin: 5% 5%; }
+    .paragraphaboutme { font-size: 16px; line-height: 1.8; }
+    .contact { flex-direction: column; gap: 15px; }
+    .contact a { font-size: 20px; padding: 16px 0; width: 80%; }
+    .projects-title { font-size: 35px; text-align: center; }
+    .projects-container { flex-direction: column; gap: 20px; }
     .project-card { width: 100%; }
 }
 
 @media (max-width: 480px) {
-    .header { font-size: 40px; }
-    .tittlestrong { font-size: 24px; }
-    .paragraphaboutme { font-size: 14px; }
-    .contact a { font-size: 16px; padding: 14px 0; }
+    body { padding: 5px; }
+    .header { font-size: 35px; }
+    .tittlestrong { font-size: 22px; }
+    .aboutmemain { margin: 5% 3%; }
+    .paragraphaboutme { font-size: 14px; line-height: 1.6; }
+    .contact a { font-size: 16px; padding: 14px 0; width: 100%; }
+    .projects-title { font-size: 28px; }
+    .projects-container { gap: 15px; }
+    .project-card { padding: 15px; }
+    .project-card h3 { font-size: 22px; }
+    .project-card p { font-size: 14px; }
+    .project-card a { font-size: 16px; padding: 12px 25px; }
 }
