@@ -156,7 +156,7 @@ header {
 .project-card h3 {
     font-family: "Offside", sans-serif;
     font-size: 28px;
-    color: #22D4FD;
+    color: #FD1D1D;
     margin-bottom: 15px;
 }
 
@@ -170,7 +170,7 @@ header {
 .project-card a {
     text-decoration: none;
     color: #000000;
-    background-color: #22D4FD;
+    background-color: #FD1D1D;
     padding: 18px 35px;
     border-radius: 20px;
     font-weight: 700;
